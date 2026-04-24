@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.4;
+  color: #000000;
+  background: #ffffff;
+}
+
+header,
+main,
+section,
+article,
+footer {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  box-shadow: none;
+}
+
+header {
+  margin-bottom: 1cm;
+}
+
+nav {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #000000;
+  page-break-after: avoid;
+}
+
+section,
+article,
+figure,
+img {
+  page-break-inside: avoid;
+}
+
+section {
+  margin-bottom: 0.7cm;
+}
+
+article {
+  margin-top: 0.5cm;
+}
+
+img {
+  display: block;
+  max-width: 12cm;
+  width: 100%;
+  height: auto;
+  margin: 0.3cm 0;
+}
+
+figcaption {
+  font-size: 10pt;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 1cm;
+  font-size: 10pt;
+}
